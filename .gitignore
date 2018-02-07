@@ -1,0 +1,16 @@
+/node_modules
+/public/storage
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+/.idea/workspace.xml
+.idea/workspace.xml
+/config/googleconfig.php
+
+
+tests/_output/*
+nbproject
+
+/gitflow

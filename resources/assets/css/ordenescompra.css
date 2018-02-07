@@ -1,0 +1,156 @@
+.pull-left{
+    float: left !important;
+}
+
+.dataTables_length{
+    float: left !important;
+}
+
+.dataTables_filter{
+    float: right !important;
+}
+
+.tituloPantalla{
+    font-size: 16px;
+}
+
+.number{
+    background-color: #fff;
+    color: #00bcd4;
+    display: inline-block;
+    /*position: absolute;*/
+    top: 0;
+    width: 38px;
+    height: 38px;
+    border: 2px solid #00bcd4;
+    font-size: 14px;
+    border-radius: 50%;
+    z-index: 10;
+    line-height: 34px;
+    text-align: center;
+}
+
+.align-center-number-label{
+    padding-top: 0px !important;
+    margin-right: 0px !important;
+}
+
+.align-div{
+    padding-right: 0px;
+}
+
+.opacity{
+    color: #b1a2a2;
+}
+
+.combo-align-div{
+    width:100% !important;
+}
+
+.right-column{
+    text-align:right;
+}
+
+.center-column{
+    text-align: center;
+}
+
+.left-column{
+    text-align: left;
+}
+
+.full-width{
+    width: 100% !important;
+}
+
+.center-check{
+    padding-top: 5px !important;
+    padding-left: 8px !important;
+}
+
+.full-width-padding{
+    width: 100% !important;
+    padding: 0px !important;
+}
+
+.none-padding{
+    padding: 0px !important;
+}
+
+.with-error{
+    border-color: #D84315 !important;
+}
+
+.align-buttons{
+    padding: 0px !important;
+    /*text-align: right !important;*/
+}
+.float-right{
+    float: right;
+}
+
+.table-accounts > tbody > tr:hover {
+    background-color: #e3f2fd;
+}
+
+.pull-left{
+    float: left !important;
+    margin: 0 0 20px 0px;
+}
+
+.search-big-box{
+    width: 500px !important;
+    border-width: 2px !important;
+}
+
+td.details-control {
+    background:url('../images/details_open2.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background:url('../images//details_close.png') no-repeat center center;
+}
+
+.move,.moveall,.remove,.removeall{
+    background-image: linear-gradient(to bottom,#f3f3f3 0,#a9a9a9 100%);
+
+}
+
+.move:hover,.moveall:hover,.remove:hover,.removeall:hover{
+    background-image: linear-gradient(to bottom,#a9a9a9 0,#f3f3f3 100%);
+}
+
+#lista-permisos {
+    list-style: none;
+    margin-bottom: 0;
+    border: 1px solid #bdbdbd;
+    padding: 0;
+    border-radius: 0;
+}
+
+#lista-permisos :nth-of-type(odd){
+    background: #e7e8ec;
+}
+#lista-permisos :nth-of-type(even){
+    background: #a9a9a9;
+}
+#lista-permisos :hover{
+    background: #dfe0e4;
+}
+
+.label-align-right{
+    display:block;
+    text-align: right;
+    padding:0;
+}
+
+.label-align-center{
+    display:block;
+    text-align: center;
+    padding:0;
+}
+
+.input-label{
+    background:rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0);
+}

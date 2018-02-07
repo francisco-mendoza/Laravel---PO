@@ -1,0 +1,15 @@
+.logo_title{
+    width: 16%;
+    float: left;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-inverse{
+    /*background-color: #4b5479;*/
+    background-color: #324d69;
+}
+.navbar-header{
+    max-width: 245px;
+}

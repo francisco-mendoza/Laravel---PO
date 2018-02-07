@@ -1,0 +1,25 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver
+        - Db:
+           dsn: 'mysql:host=10.0.1.101;port=3306;dbname=ordenescompra'
+           user: 'root'
+           password: 'Adm1n.Adm1n.'
+           dump: 'tests/_data/dump.sql'
+           populate: true
+           cleanup: true
+           reconnect: true
+    config:
+        WebDriver:
+            url: http://local.ordenescompra.cl/
+            browser: 'firefox'
+            wait: 3
+            pageload_timeout: 3
+            restart: true
